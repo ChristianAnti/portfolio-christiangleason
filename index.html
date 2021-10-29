@@ -37,30 +37,37 @@
     <div class="container">
         <header class="d-flex justify-content-center py-3">
           <ul class="nav nav-pills">
-            <li class="nav-item"><a href="#" class="nav-link">About Me</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Projects</a></li>
-            <li class="nav-item"><a href="#" class="nav-link">Contact Info</a></li>
+            <li class="nav-item"><a href="#aboutme" class="nav-link">About Me</a></li>
+            <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+            <li class="nav-item"><a href="#contactinfo" class="nav-link">Contact Info</a></li>
           </ul>
         </header>
       </div>
+      <!-- <div class="button"><a href="#aboutme">About me</a></div>
+      <div class="button"><a href="#projects">Projects</a></div>
+      <div class="button"><a href="#contactinfo">Contact info</a></div> -->
     
 <!-- Body -->
 <main>
 <!-- About me section -->
+<div class="container-lg">
     <section class="aboutme" id="aboutme">
         <div class="aboutme-text">
             <h3>Christian Gleason</h3>
-            <p>I can't say I have much much under my belt when it comes to coding since this is my first class for it, but oh well this is a start right.</p>
+            <p>Hello my name is Christian Gleason and I am a coder from Philadelphia PA, trained in front end development, currently learning back end development. Here are a few of the projects I have worked on. Enjoy!!!</p>
             <div class="stock-imgs">
-            <img src="./assets/images/stock1.jpg" alt="coding stock image">
+            <!-- <img src="./assets/images/stock1.jpg" alt="coding stock image">
             <img src="./assets/images/stock2.jpg" alt="coding stock image">
-            <img src="./assets/images/stock3.jpg" alt="coding stock image">
-            <img src="./assets/images/stock4.jpg" alt="coding stock image">
+            <img src="./assets/images/stock3.jpg" alt="coding stock image"> -->
+            <img src="./assets/images/stock5.jpg" alt="coding stock image">
+            <p> <--- me coding</p>
             </div>
         </div>
+    </div>
     </section>
 
 <!-- Projects section -->
+<!-- <div class="container-lg">
     <section class="Projects" id="projects">
         <div class="projects-text">
         <h3>My Projects</h3>
@@ -72,22 +79,62 @@
             <img src="./assets/images/stock8.jpg" alt="coding stock image">
             </div>
         </div>
+    </div> --> 
+    <!-- old code may refer back 2 :) -->
     </section>
+    <div class="container px-4 py-5" id="featured-3">
+        <h2 class="pb-2 border-bottom">My Projects</h2>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+          <div class="pastProjects col">
+            <div class="feature-icon bg-primary bg-gradient">
+                <img src="assets/images/CantaImage.JPG" class="rounded mx-auto d-block" alt="Canta">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#collection"></use></svg>
+            </div>
+            <h2>Canta</h2>
+            <p>Canta was a project done with a group of other students from my coding bootcamp. Canta was an app based around locating medical care for those in need.</p>
+            <a href="https://kennedysam168.github.io/Group-Project-1/" class="icon-link">
+              Canta . . .
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="pastProjects col">
+            <div class="feature-icon bg-primary bg-gradient">
+                <img src="assets/images/Weather.JPG" class="rounded mx-auto d-block" alt="Canta">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#people-circle"></use></svg>
+            </div>
+            <h2>Weather Dashboard</h2>
+            <p>A simple weather dashboard that tells you the weather and temperture in a 5 day forecast.</p>
+            <a href="https://christiananti.github.io/WeatherDashboard/" class="icon-link">
+                Weather Dashboard . . .
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+          <div class="pastProjects col">
+            <div class="feature-icon bg-primary bg-gradient">
+                <img src="assets/images/refactoring.JPG" class="rounded mx-auto d-block" alt="Canta">
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#toggles2"></use></svg>
+            </div>
+            <h2>Refactoring Homework</h2>
+            <p>Some Simple refactoring done for homework.</p>
+            <a href="https://christiananti.github.io/refactoring-html-projectChristianGleason/" class="icon-link">
+              Refactoring Homework . . .
+              <svg class="bi" width="1em" height="1em"><use xlink:href="#chevron-right"></use></svg>
+            </a>
+          </div>
+        </div>
+      </div>
 
 </main>
-
-<footer>
-    <div class="footer-style" id="contactinfo">
-    <h3>
-        <p>My info :)</p>
-        <ul>
-        <li>Email</li>
-        <li>Github</li>
-        <li>Linkedin</li>
-        </ul>
-    </h3>
-    </div>
-</footer>
+<!-- footer -->
+<div class="container">
+    <footer class="d-flex justify-content-center py-3">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="https://c.tenor.com/PPn5QJWoT_UAAAAM/monkey-computer.gif" class="nav-link px-2 text-muted">Email</a></li>
+        <li class="nav-item"><a href="https://github.com/ChristianAnti" class="nav-link px-2 text-muted">Github</a></li>
+        <li class="nav-item"><a href="https://www.linkedin.com/" class="nav-link px-2 text-muted">Linkedin</a></li>
+      </ul>
+    </footer>
+  </div>
 
 </body>
 </html>

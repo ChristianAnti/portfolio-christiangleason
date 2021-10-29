@@ -38,15 +38,15 @@ h3 {
 section {
   height: 300px;
   background-color: white;
-  border: solid grey;
-  border-radius: 20px;
+  /* border: solid grey; */
+  /* border-radius: 20px; */
 }
 
-footer {
+/* footer {
   height: 150px;
   background-color: grey;
   border-radius: 40px;
-}
+} */
 
 nav {
   display: flex;
@@ -107,6 +107,6 @@ li {
   display: inline;
 }
 
-.footer-style {
+/* .footer-style {
   margin-left: 245px;
-}
+} */
