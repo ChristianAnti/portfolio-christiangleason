@@ -3,6 +3,8 @@ Christian Gleason's portfolio
 
 A simple portfilio that I can work on as the class continues. 
 
+Updated with bootstrap 
+
 Bellow is the original README.md for reference 
 
 # 02 Advanced CSS: Portfolio

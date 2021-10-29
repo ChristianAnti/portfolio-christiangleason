@@ -1,4 +1,22 @@
 body {
+  font-family: 'Courier Prime', monospace;
+  min-height: 75rem;
+  padding-top: 4.5rem;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Courier Prime', monospace;
+}
+p {
+    font-size: 18px;
+    font-family: 'Courier Prime', monospace;
+}
+
+div {
+  font-family: 'Courier Prime', monospace;
+}
+
+body {
     background-color:white;
     font-family: 'Courier Prime', monospace;
 }
