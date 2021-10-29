@@ -5,6 +5,8 @@ A simple portfilio that I can work on as the class continues.
 
 Updated with bootstrap 
 
+deployed Site: https://christiananti.github.io/portfolio-christiangleason/
+
 Bellow is the original README.md for reference 
 
 # 02 Advanced CSS: Portfolio
